@@ -4,90 +4,279 @@
   box-sizing: border-box;
 }
 
-.content {
-  max-width: 1440px;
-  padding: 77px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 1000px) {
+  .content {
+    max-width: 1440px;
+    padding: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    color: #333333;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08rem;
+    margin-top: 35px;
+    margin-left: 77px;
+  }
+
+  .main--image {
+    height: 100%;
+    width: 539px;
+  }
+
+  .image {
+    height: auto;
+    width: 100%;
+  }
+
+  .main {
+    display: flex;
+    height: 70%;
+  }
+
+  .main--content {
+    padding: 0px 50px;
+  }
+
+  .subtitle {
+    color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035rem;
+  }
+
+  .paragraph {
+    color: #4f4f4f;
+    font-family: "Space Mono", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 36px;
+    margin-top: 1rem;
+  }
+
+  .button {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 68px;
+    line-height: 20px;
+    letter-spacing: -0.035rem;
+    margin-top: 64px;
+    outline: none;
+    width: 216px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.035rem;
+    line-height: 17px;
+  }
 }
 
-.title {
-  color: #333333;
-  font-family: "Inconsolata", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 25px;
-  letter-spacing: -0.08rem;
-  margin-top: 35px;
-  margin-left: 77px;
+@media (min-width: 500px) and (max-width: 1000px) {
+  .content {
+    max-width: 1440px;
+    padding: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    color: #333333;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08rem;
+    margin-top: 35px;
+    margin-left: 77px;
+  }
+
+  .main--image {
+    height: 100%;
+    width: 539px;
+  }
+
+  .image {
+    height: auto;
+    width: 100%;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+  }
+
+  .main--content {
+    padding: 0px 50px;
+  }
+
+  .subtitle {
+    color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035rem;
+  }
+
+  .paragraph {
+    color: #4f4f4f;
+    font-family: "Space Mono", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 36px;
+    margin-top: 1rem;
+  }
+
+  .button {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 68px;
+    line-height: 20px;
+    letter-spacing: -0.035rem;
+    margin-top: 64px;
+    outline: none;
+    width: 216px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.035rem;
+    line-height: 17px;
+  }
 }
 
-.main--image {
-  height: 100%;
-  width: 539px;
-}
+@media (min-width: 300px) and (max-width: 500px) {
+  .content {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.image {
-  height: auto;
-  width: 100%;
-}
+  .title {
+    color: #333333;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
 
-.main {
-  display: flex;
-  height: 70%;
-}
+  .main--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
 
-.main--content {
-  padding: 0px 50px;
-}
+  .image {
+    height: auto;
+    width: 80%;
+  }
 
-.subtitle {
-  color: #333333;
-  font-family: "Space Mono", sans-serif;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 95px;
-  letter-spacing: -0.035rem;
-}
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+  }
 
-.paragraph {
-  color: #4f4f4f;
-  font-family: "Space Mono", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: -0.035rem;
-  line-height: 36px;
-  margin-top: 1rem;
-}
+  .main--content {
+    padding: 0px 50px;
+  }
 
-.button {
-  border: none;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #333333;
-  font-family: "Space Mono", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  height: 68px;
-  line-height: 20px;
-  letter-spacing: -0.035rem;
-  margin-top: 64px;
-  outline: none;
-  width: 216px;
-}
+  .subtitle {
+    color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.035rem;
+  }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .paragraph {
+    color: #4f4f4f;
+    font-family: "Space Mono", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 36px;
+    margin-top: 1rem;
+  }
 
-.copyright {
-  color: #333333;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: -0.035rem;
-  line-height: 17px;
+  .button {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-family: "Space Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 68px;
+    line-height: 20px;
+    letter-spacing: -0.035rem;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    outline: none;
+    width: 216px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+  }
+
+  .copyright {
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.035rem;
+    line-height: 17px;
+  }
 }
