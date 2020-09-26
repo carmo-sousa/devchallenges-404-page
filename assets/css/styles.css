@@ -6,6 +6,7 @@
 
 @media (min-width: 1000px) {
   .content {
+    margin: 0px auto;
     max-width: 1440px;
     padding: 77px;
     display: flex;
