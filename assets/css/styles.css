@@ -97,6 +97,7 @@
 
 @media (min-width: 500px) and (max-width: 1000px) {
   .content {
+    margin: 0px auto;
     max-width: 1440px;
     padding: 77px;
     display: flex;
@@ -188,6 +189,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
   .content {
+    margin: 0px auto;
     max-width: 100vw;
     display: flex;
     justify-content: center;
